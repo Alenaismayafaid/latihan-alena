@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+.produk {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produk-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.produk-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produk-item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.produk-item p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.produk-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
